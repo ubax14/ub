@@ -1,0 +1,65 @@
+.table{
+    box-shadow: 3px 3px 4px gray;
+    margin-top: 100px;
+    margin-left: 300px;
+     width: 600px; 
+     height: 300px; 
+    border-collapse: collapse;
+    
+
+}
+
+@media (max-width: 600px){
+    article {background:hsla(hue, saturation, lightness, alpha) ;}
+  }
+  @media(min-width:600px){
+    article{ font-size: 2rem;}
+  }
+  .table th{  
+      border-spacing: 50px;
+      text-align: center;
+}
+.head :hover{
+    color: #0d0202;
+    background-color: rgb(22, 139, 162);
+}
+.table .table-row :hover{
+background-color: greenyellow;
+}
+
+.table .title{
+     background-color: blueviolet; 
+    
+}
+.hero{
+    margin-top: 150px;
+
+}
+img{
+    box-shadow: 4px 4px 4px cadetblue; 
+    float: left;
+    border-radius: 30px;
+    text-align: right;
+    margin-right: 20px;
+}
+p{
+    margin-top: 50px;
+    margin-left: 00px;
+    
+
+}
+h3{
+    background-color: aqua;
+    text-align: center;
+    width:450px ;
+    margin-left:300px ;
+    /* margin-top:100px; */
+
+}
+table.title:hover{
+background-color:green ;
+}
+table .head{
+    background-color:violet;
+    font-size: larger;
+}

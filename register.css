@@ -1,0 +1,26 @@
+
+.container{
+     background: linear-gradient(to top,rgba(207, 207, 207, 0.6)50%,rgba(207, 207, 207, 0.6)50%),url(); 
+    width: 1000px;
+    margin-top: 60px;
+    background-repeat: no-repeat;
+    height: 97vh;
+    background-size: cover;
+    margin-left: 100px;
+
+
+    
+
+}
+
+@media (max-width: 600px){
+    article {background:hsla(hue, saturation, lightness, alpha) ;}
+  }
+  @media(min-width:600px){
+    article{ font-size: 2rem;}
+  }
+form{
+    margin-left: 280px;
+    /* align-items: center; */
+
+}
